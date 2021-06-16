@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+/* /common */
+
+/* colors*/
+.red{
+background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+/* colors*/
+
+/* MENU */
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+
+}
+
+nav li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 50%;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* /MENU */
+
+/* SLIDE */
+
+/* /SLIDE */
